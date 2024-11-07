@@ -1,0 +1,42 @@
+[project]
+name = "pytest-codeowners"
+version = "0.1.1"
+description = "Pytest plugin for selecting tests by GitHub CODEOWNERS."
+authors = [
+    {name = "Rodney Marsh", email = "rodney.marsh@iress.com"}
+]
+requires-python = ">=3.8"
+license = {text = "Apache Software License 2.0"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest>=6.0.0",
+    "codeowners",
+]
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = [
+    "setuptools>=38.6",
+    "wheel",
+]
+
+[project.urls]
+Homepage = "https://github.com/Iress/pytest-codeowners"
+
+[build-system]
+requires = ["setuptools>=38.6", "wheel"]
+build-backend = "setuptools.build_meta"
