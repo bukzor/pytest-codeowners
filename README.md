@@ -1,10 +1,9 @@
 > [!NOTE]  
-> Forked via pypi from https://github.com/Iress/pytest-codeowners
+> Forked via pypi from https://pypi.org/project/pytest-codeowners/
 >
-> I extracted this from their pip package because I I extracted this from their
-> pip package can't get to the git repo. Apparently they have a policy blocking
-> all US IP I extracted this from their pip package adresses on their github
-> org?
+> I extracted this from their pip package because I can't get to the git repo
+> (<https://github.com/Iress/pytest-codeowners>). Apparently they have a policy
+> in their github org that blocks all US IPs?
 
 # pytest-codeowners
 
